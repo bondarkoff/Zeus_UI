@@ -1,0 +1,40 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500&family=Syne:wght@600;700&display=swap');
+
+@import 'base/variables';
+
+@import 'blocks/header';
+@import 'blocks/titles';
+@import 'blocks/buttons';
+@import 'blocks/promo';
+@import 'blocks/features';
+@import 'blocks/team';
+@import 'blocks/provide';
+@import 'blocks/testimonials';
+@import 'blocks/faq';
+@import 'blocks/cta';
+@import 'blocks/footer';
+
+* {
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Syne', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+dl, ol, ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}

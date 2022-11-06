@@ -1,0 +1,51 @@
+.header {
+    display: flex;
+    align-items: center;
+    height: 76px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #F8E0FB;
+}
+
+.menu {
+    &__left, &__right {
+        display: flex;
+        align-items: center;
+        &-item {
+            justify-content: space-between;
+            list-style-type: none;
+            margin-right: 24px;
+            a {
+                text-align: center;
+                font-family: 'Space Grotesk';
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+                text-decoration: none;
+                color: $black;
+                opacity: 0.5;
+                transition: all .2s linear;
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+    &__left {
+        &-item {
+            &:nth-child(3) {
+                margin-right: 0px;
+            }
+        }
+    }
+    &__right {
+        &-item {
+            &:nth-child(3) {
+                margin-right: 0px;
+            }
+        }
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+}

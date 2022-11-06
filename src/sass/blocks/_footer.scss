@@ -1,0 +1,28 @@
+.footer {
+    padding: 80px 0 40px 0;
+    background: $background;
+    &__divider {
+        margin-top: 40px;
+        color: #CCD5DF;
+    }
+    &__copyright {
+        margin-top: 40px;
+        opacity: 0.5;
+    }
+    .menu {
+        &__left {
+            &-item {
+                &:nth-child(2) {
+                    margin-right: 0px;
+                }
+            }
+        }
+        &__right {
+            &-item {
+                &:nth-child(3) {
+                    margin-right: 24px;
+                }
+            }
+        }
+    }
+}

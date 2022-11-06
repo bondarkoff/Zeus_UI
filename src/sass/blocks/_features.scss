@@ -1,0 +1,23 @@
+.features {
+    background: $background;    
+    padding: 80px 0 70px 0;
+    &__wrapper {
+        margin-top: 64px;
+        display: grid;
+        grid-template-columns: 412px 412px 412px;
+        column-gap: 30px;
+        row-gap: 64px;
+    }
+    &__item {
+        &-img {
+            height: 412px;
+            width: 396px;
+        }
+        &-title {
+            margin-top: 16px;
+        }
+        &-subtitle {
+            margin-top: 12px;
+        }
+    }
+}

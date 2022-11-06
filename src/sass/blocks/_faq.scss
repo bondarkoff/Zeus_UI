@@ -1,0 +1,84 @@
+.faq {
+    padding: 80px 0 80px 0;
+    background: $background;
+    &__content {
+        display: grid;
+        grid-template-columns: repeat(3, 412px);
+        grid-template-rows: max-content;
+        grid-column-gap: 32px;
+    }
+    &__text {
+        grid-area: 1 / 1 / 5 / 2;
+        &-title {
+            text-align: left;
+            font-weight: 600;
+        }
+        &-subtitle {
+            text-align: left;
+            margin-top: 24px;
+        }
+    }
+    &__card {
+        margin-top: 24px;
+        border: 1px solid #D6BCFA;
+        border-radius: 15px;
+    }
+    &__item {
+        padding: 24px;
+        &-text {
+            display: none;
+            visibility: hidden;
+            opacity: 0;
+            margin-top: 12px;
+            font-family: 'Space Grotesk';
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: $main-color;
+            transition: all .5s linear;
+            &.active {
+                display: block;
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+    &__header {
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+        &-title {
+            width: 308px;
+        }
+        // &-dropdown {
+        //     background: $background;
+        //     border: none;
+        //     outline: none;
+        //     width: 24px;
+        //     height: 24px;
+        //     outline:0 none !important;
+        //     &:visited, &:focus, &:active, &:hover {
+        //         outline: 0 none !important;
+        //     }
+        // }
+    }
+}
+
+.hamburger {
+    height: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 1s linear;
+    span {
+        display: block;
+        width: 12px;
+        height: 3px;
+        background: #9F7AEA;
+        &:active {
+            transform: rotate(90deg);
+        }
+    }
+}

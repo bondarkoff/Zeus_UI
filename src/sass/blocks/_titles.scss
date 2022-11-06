@@ -1,0 +1,54 @@
+.title {
+    font-family: 'Syne';
+    font-weight: 700;
+    color: $black;
+    text-align: center;
+    line-height: 64px;
+    font-size: 48px;
+    &-fz32 {
+        text-align: center;
+        color: #000;
+        font-size: 32px;
+        line-height: 42px;
+        font-weight: 600;
+    }
+    &-fz24 {
+        font-family: 'Space Grotesk';
+        text-align: center;
+        color: #000;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+    }
+}
+
+.subtitle {
+    font-family: 'Space Grotesk';
+    font-weight: 400;
+    color: $main-color;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    &-fz14 {
+        font-family: 'Space Grotesk';
+        text-align: center;
+        color: $main-color;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+}
+
+.fw300 {
+    font-weight: 300;
+}
+
+.fz16 {
+    font-family: 'Space Grotesk';
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #000;
+}
+
+
