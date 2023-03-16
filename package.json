@@ -1,12 +1,11 @@
 {
-  "name": "pulse",
+  "name": "zeus_ui",
   "version": "1.0.0",
-  "description": "",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "bondarkoveg",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.12",
@@ -28,5 +27,14 @@
   ],
   "dependencies": {
     "bootstrap": "^5.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bondarkoff/Zeus_UI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bondarkoff/Zeus_UI/issues"
+  },
+  "homepage": "https://github.com/bondarkoff/Zeus_UI#readme",
+  "description": ""
 }
